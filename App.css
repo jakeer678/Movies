@@ -1,0 +1,55 @@
+body {
+	background: #141414;
+	color: #ffffff;
+}
+
+.movie-app > .row {
+	overflow-x: auto;
+
+}
+.imgage_container {
+	display: grid;
+	columns: 4;
+	gap: 5;
+	
+}
+
+.row {
+	flex: grid;
+    columns: 3;
+	
+
+    align-items: center;
+	justify-content: center;
+   
+    display: flex;
+    overflow-x: none;
+    flex-wrap: wrap;
+
+}
+
+.headers {
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.inputsearch {
+	padding: 8px;
+    margin-right: 10px;
+}
+
+.favourites {
+	position: absolute;
+	background: rgba(248, 241, 241, 0.8);
+	width: 100%;
+	transition: 0.5s ease;
+	opacity: 0;
+	bottom: 0;
+	font-size: 20px;
+	padding: 20px;
+	text-align: center;
+
+
+}
+	
